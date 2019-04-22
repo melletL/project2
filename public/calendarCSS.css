@@ -1,0 +1,53 @@
+body {
+	font-family: Helvetica;
+}
+
+#top {
+	display:flex;
+}
+
+div {
+	display:inline-block;
+}
+
+#calendarHeader {
+	width:840px;
+	display:flex;
+
+}
+
+.dayHeader {
+	width:118px;
+	display:inline-block;
+	text-align: center;
+	border:1px solid;
+	padding: 10px 0;
+}
+
+.weekend {
+	color:red;
+}
+
+#calendarRender {
+	width:840px;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.day {
+	width:118px;
+	height:48px;
+	display:inline-block;
+	text-align: center;
+	border:1px solid;
+	padding: 10px 0;
+}
+
+.blank {
+	width:118px;
+	height:48px;
+	display:inline-block;
+	text-align: center;
+	border:1px solid white;
+	padding: 10px 0;
+}
