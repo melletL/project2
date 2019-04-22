@@ -1,0 +1,19 @@
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-01','1000','2019-04-01','1200',1,'Apple','Birthday','n/a','Buy cake','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-03','1000','2019-04-03','1200',1,'Pear','Birthday','n/a','Buy cake','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-07','1000','2019-04-07','1200',1,'Orange','Birthday','n/a','Buy cake','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-12','1000','2019-04-12','1200',1,'Banana','Birthday','n/a','Buy cake','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-15','1000','2019-04-15','1200',1,'Durian','Birthday','n/a','Buy cake','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-17','1000','2019-04-17','1200',1,'Pineapple','Birthday','n/a','Buy cake','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-19','1000','2019-04-19','1200',1,'Cherry','Birthday','n/a','Buy cake','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-23','1000','2019-04-23','1200',1,'Cherry','Birthday','n/a','Buy cake','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-26','1000','2019-04-26','1200',1,'Jackfruit','Birthday','n/a','Buy cake','newuser');
+
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-03','0900','2019-04-03','1100',1,'Feed the dog','Errand','n/a','n/a','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-05','1100','2019-04-05','1100',1,'Lunch with ABC','Meeting','Lucky Plaza','Jollibee','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-12','1100','2019-04-05','1100',1,'Dinner with DEF','Meeting','Lucky Plaza','Jollibee','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-17','1100','2019-04-17','1100',1,'Tea with XYZ','Meeting','Some Place','TWG','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-24','1100','2019-04-24','1100',1,'Buy Stuff','Errand','Some Place','ABC','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-30','1100','2019-04-30','1100',1,'Buy More Stuff','Errand','Taka','n/a','newuser');
+
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-06','1100','2019-04-08','1100',3,'Holiday','Travel','India','n/a','newuser');
+INSERT INTO events (startDate, startTime, endDate, endTime, noDays, eventName, eventType, eventLocation, eventNotes, userName) VALUES ('2019-04-21','1100','2019-04-22','1100',2,'John on leave','Leave','n/a','n/a','newuser');
