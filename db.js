@@ -35,7 +35,7 @@ if( process.env.DATABASE_URL ){
   configs = {
     user: 'll',
     host: '127.0.0.1',
-    database: 'tweeder',
+    database: 'calendar',
     port: 5432
   };
 }
@@ -62,10 +62,11 @@ pool.on('error', function (err) {
  */
 
 //one table for each model
-const allPokemonModelsFunction = require('./models/pokemon');
+const authenticateModelsFunction = require('./models/authenticate');
+const authenticateModelsObject = authenticateModelsFunction( pool );
 
-const pokemonModelsObject = allPokemonModelsFunction( pool );
-
+const calendarModelFunction = require('./models/calendarModel');
+const calendarModelObject = calendarModelFunction( pool );
 
 
 /*
@@ -95,5 +96,6 @@ module.exports = {
    */
 
   // users: userModelsObject,
-  pokemon: pokemonModelsObject
+  authenticate: authenticateModelsObject,
+  calendar: calendarModelObject,
 };

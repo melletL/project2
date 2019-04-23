@@ -7,10 +7,10 @@ const noDaysInMonth = function(year, month) {
     return d1.getDate();
 }
 
-// const accessDate = function() {
-//     console.log("clicked",this.id);
-//     window.location.replace(`/date/${year}/${month}/${this.id}`);
-// }
+const accessDate = function() {
+    console.log("clicked",this.id);
+    window.location.replace(`/date/${year}/${month}/${this.id}`);
+}
 
 const renderCalendar = function() {
 //reassigning date variables
@@ -22,11 +22,12 @@ const renderCalendar = function() {
         renderArea.removeChild(renderArea.children[0]);
     }
 //defining variables
-    let d1 = new Date(year, month, 0);
+    let d1 = new Date(year, month-1, 0);
     let dayOfWeek = d1.getDay();
-    let dayInMonth = d1.getDate();
+    let d2 = new Date (year,month,0);
+    let dayInMonth = d2.getDate();
 //add blank days
-    for (var i=0; i<dayOfWeek-2; i++) {
+    for (var i=0; i<dayOfWeek; i++) {
         var blankDay = document.createElement("div");
         blankDay.innerText="";
         blankDay.classList.add("day");
@@ -39,7 +40,7 @@ const renderCalendar = function() {
         actualDay.innerText = i+1;
         actualDay.classList.add("day");
         actualDay.id = i+1;
-        // actualDay.addEventListener("click",accessDate)
+        actualDay.addEventListener("click",accessDate)
         document.getElementById("calendarRender").appendChild(actualDay);
     }
 }
